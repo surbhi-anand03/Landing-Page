@@ -1,0 +1,91 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    background: black;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    font-family: 'Poppins',sans-serif;
+    position: absolute;
+    top: 0;
+}
+.menu{
+    display: flex;
+    padding: 0px 100px;
+    top: 0;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0px 5px;
+}
+.menu a:last-child{
+    background: palevioletred;
+    border-radius: 5px;
+}
+.menu a:hover{
+    background: palevioletred;
+    border-radius: 5px;
+    transition: 0.4s linear;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    position: absolute;
+}
+.left{
+    flex-basis: 40%;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 53%;
+    height: 100%;
+}
+.left h3{
+    font-size: 2.0rem;
+    line-height: 4.5rem;
+}
+.left h2{
+    font-size: 2.8rem;
+    line-height: 4.5rem;
+    color: white;
+}
+.left p1{
+    font-size: 2.1rem;
+    line-height: 4.5rem;
+    color: palevioletred;
+}
+.left button{
+    background: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all .45s ease;
+}
+.left button:hover{
+    transform: scale(0.9);
+}
+.s-icon{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+.s-icon img{
+    width: 30px;
+}
